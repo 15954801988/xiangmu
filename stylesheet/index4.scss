@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    height: 1000px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html{
+ // overflow: hidden;
+ // height:2000px;
+}
+li{
+  list-style-type: none;
+}
+
+#div1{
+     height:110px;
+    background-color: #999999;
+    width: 1520px;
+    img{
+        width: 100%;height: 100%;
+    }
+}
+#div2{
+    background-color: #C42C41;
+    width:1520px; height:40px;
+    #div2-1{
+        font-size: 14px;color: #fffcfc;
+        padding: 0px 15px;
+        line-height: 40px;
+        position: relative;
+        margin: 0 auto;
+        width: 1210px;
+        li{
+            float: left;
+            padding: 0px 20px;
+            //box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color:#fffcfc;
+             padding: 3px;
+        }
+        li a:hover{
+             border-radius: 12px;
+            background-color: black;
+           
+        }
+
+    }
+    #div2-2{
+        position: absolute;
+        top: 8px;
+        right: 0;
+        input{
+            float: left;
+            background-color: #ffffff;
+            border: solid 1px #e1e1e1;
+            border-top-left-radius: 11px;
+            border-bottom-left-radius: 11px;
+            height: 20px;
+        }
+           // padding: 0 0 0 10px;
+        // width: 130px;
+        // line-height: 22px;
+        // height: 22px;
+        // background-color: #ffffff;
+        // color: #c9c9c9;
+        // vertical-align: top;
+        // outline: none;
+        // border: solid 1px #e1e1e1;
+        // border-top-left-radius: 11px;
+        #s-s{
+            float: left;
+            background-color: black;
+            border-top-right-radius: 11px;
+             border-bottom-right-radius: 11px;
+             height: 24px;
+            width: 46px;
+            background: #333 url(//img13.360buyimg.com/cms/jfs/t3121/284/4170076300/1201/43e1ad98/583543d4Nc7e0c1a4.png) no-repeat center;
+        }
+     
+    }
+}
+#div3{
+    background: #f2f2f2;
+    height: 44px;width: 1520px;
+
+    
+    .w{
+        width: 1190px;
+        margin:  auto;
+        
+    
+       // float: left;
+         div{
+        line-height: 44px;
+        font-size: 12px;color:#666666;
+        float: left;
+        margin-left: 10px;
+        a{
+            text-decoration: none;
+        }
+    }
+    
+}
+#cont{
+    float: right;
+}
+}
+
+#small{
+    width:500px;height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 117px;
+    top: 211px;
+
+ img{
+    width: 100%;height: 100%; position: absolute;
+}
+
+
+      
+img:nth-child(1){
+    z-index: 5;
+}
+
+}
+#ul{
+ul{
+     position: absolute;
+     top: 746px;
+     left: 184px;
+
+    li{
+        height: 58px;
+        width: 58px;
+        margin-right: 10px;
+       
+        float: left;
+        border: 1px solid #999999;
+       img{
+            width: 100%;height: 100%;
+        }
+
+    }
+}
+}
+
+#mark{
+    z-index: 9;
+    display: none;width: 200px; height: 200px;
+    background-color: #999; opacity: 0.5; 
+    filter: (opacity=50); position: absolute; left: 0px; top: 0px;
+}
+
+#big{
+    width: 600px;height: 600px;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    border: 1px solid black;
+    display: none;
+    overflow: hidden;
+    img{
+        position: absolute;
+        width: 200%;height: 200%;
+    }
+    img:nth-child(1){
+        z-index: 5;
+    }
+    
+}

@@ -1,0 +1,319 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    height: 1000px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html{
+ // overflow: hidden;
+ // height:2000px;
+}
+li{
+  list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.center{
+    margin: 0 auto;
+    width: 1520px;
+}
+.a1{
+    width: 990px;
+    height: 80px;
+   // background-color: red;
+    #head1{
+        float: right;
+         position: relative;
+            top:40px;
+        span{
+            font-size: 12px;
+            color: #999;
+           
+        }
+    }
+}
+
+#b1{
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    img{
+        //float: left;
+       // margin-top: 2px;
+       display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    }
+    #b1-1{
+        font-size: 12px;
+        color: #999;
+        //float: left;
+    }
+}
+
+#c1{
+    width: 1520px;
+    height: 475px;
+    background-color: #011c0d;
+    #c1-1{
+        width: 990px;
+        height: 475px;
+         margin: 0 auto;
+        background: url(../images6/ia_200000022.jpg) no-repeat;
+        #c2{
+            float: right;
+            position: relative;
+            top: 10px;
+            width: 346px;
+            height: 398px;background-color: white;
+            #t1{
+                background: #fff8f0;
+                width: 100%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+                img{
+                    
+                    //float: left;
+                   // margin-top: 2px;
+                   display: inline-block;
+                width: 16px;
+                height: 16px;
+                vertical-align: middle;
+                margin-right: 5px;
+                }
+                span{
+                    font-size: 12px;
+                } 
+            }
+            #t2{
+                width: 100%;
+                height: 55px;
+                border-bottom: 1px solid #999;
+                position: relative;
+              
+                div{
+                    width: 173px;height: 55px;float: left;
+                    text-align: center;
+                    position: relative;
+                    font-size: 18px;
+                         a{
+                            width: 99%;
+                            height: 18px;
+                            position: absolute;
+                            left: 0;
+                            top: 18px;
+                            border-right: 1px solid #f4f4f4;
+                            text-decoration: none;
+                            
+                        }
+                        a:nth-child(1){
+                            border-left: 1px solid #999;
+                        }
+                }
+
+            }
+
+            #d{
+                border: 1px solid #bdbdbd;
+                height: 38px;
+                width: 304px;
+                margin: 0px auto;
+                margin-top: 25px;
+                #d1{
+                    height: 38px;
+                    width: 38px;
+                    float: left;
+                    background: url(../images6/ia_200000021.png) no-repeat 0px 0px;
+                }
+                #d2{
+                    float: left;
+                    width: 266px;
+                    height: 38px;
+                    border: none;
+                    input{
+                        border: 0 none;
+                        font-size: 14px;
+                        padding: 10px 0 10px 10px;
+                        border: none;
+                        outline: none;
+                        color: #999;
+                    }
+                }
+            }
+
+            #e{
+                border: 1px solid #bdbdbd;
+                height: 38px;
+                width: 304px;
+                margin: 0px auto;
+                margin-top: 25px;
+                #e1{
+                    height: 38px;
+                    width: 38px;
+                    float: left;
+                    background: url(../images6/ia_200000021.png) no-repeat -48px 0px;
+                }
+                #e2{
+                    float: left;
+                    width: 266px;
+                    height: 38px;
+                    border: none;
+                    input{
+                        border: 0 none;
+                        font-size: 14px;
+                        padding: 10px 0 10px 10px;
+                        border: none;
+                        outline: none;
+                        color: #999;
+                    }
+                }
+            }
+
+            #t3{
+
+                width: 306px;height:18px;
+                margin: 0 auto;
+                margin-top: 10px;
+                
+                a{
+                    font-size: 12px;
+                    color: #666;
+                    float: right;
+                }
+                a:hover {
+                    color: #E4393C;
+                    text-decoration: underline;
+                }
+            }
+            
+            #t4{
+                border: 1px solid #e85356;
+                display: block;
+                width: 302px;
+                background: #e4393c;
+                height: 31px;
+                line-height: 31px;
+                color: #fff;
+                font-size: 20px;
+                font-family: 'Microsoft YaHei';
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+
+            #t5{
+                 width:346px;
+                        height: 50px;
+                        background-color: #fcfcfc;
+                        margin-top: 51px;       
+                         border-top: 1px solid #f4f4f4;
+
+                #t5-1{
+                        line-height: 50px;
+                        position: relative;
+                    a:hover {
+                        color: #E4393C;
+                        text-decoration: underline;
+                    }
+                    width:306px;
+                    height: 49px;
+                    background-color: #fcfcfc;
+                    margin: 0 auto;
+
+                    #i1{
+                        // position: absolute;
+                        // top:16px;
+                        margin-top: 16px;
+                        margin-right: 10px;
+                        float: left;
+                        width:18px;
+                        height: 18px;
+                        background: url(../images6/ia_200000020.png) no-repeat -1px 0px;
+                    }
+                    #i2{
+                        margin-right: 10px;
+                        margin-top: 16px;
+                        // position: absolute;
+                        // top:16px;
+                        float: left;
+                        width:18px;
+                        height: 18px;
+                        background: url(../images6/ia_200000020.png) no-repeat -20px 0px;
+                    }
+
+                    span{
+                        color: #666;
+                        font-size: 12px;
+                        float: left;
+                        margin-right: 10px;
+                    }
+                    #tri{
+                        float: right;
+                        width: 88px;height:49px;
+                        a{
+                            float: left;
+                        }
+                        div{
+                            float: left;
+                            width: 16px;
+                            height: 16px;
+                            background: url(../images6/ia_200000021.png) -104px -75px no-repeat;
+                            margin-right: 5px;
+                            margin-top: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
